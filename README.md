@@ -1,17 +1,43 @@
-<!--
-![FIXME CI](https://github.com/notCalle/__PROJECT_TEMPLATE_REPO__/workflows/FIXME%20CI/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/notCalle/__PROJECT_TEMPLATE_REPO__/badge.svg?branch=master)](https://coveralls.io/github/notCalle/elixir-tagged?branch=master)
-[![License](https://img.shields.io/github/license/notCalle/__PROJECT_TEMPLATE_REPO__)](https://github.com/notCalle/__PROJECT_TEMPLATE_REPO__/blob/master/LICENSE.txt)
--->
-
 # __PROJECT_TEMPLATE_CAMEL__
 
-Project templates, kept as branches.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/__PROJECT_TEMPLATE_SNAKE__`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-## Examples
-
-TODO:
+TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-TODO:
+Add this line to your application's Gemfile:
+
+```ruby
+gem '__PROJECT_TEMPLATE_SNAKE__'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install __PROJECT_TEMPLATE_SNAKE__
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Development
+
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, tag the release with `git tag`, and then run `bundle exec rake release`, which will build and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/__PROJECT_TEMPLATE_SNAKE__. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the __PROJECT_TEMPLATE_CAMEL__ project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/__PROJECT_TEMPLATE_SNAKE__/blob/master/CODE_OF_CONDUCT.md).
