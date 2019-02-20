@@ -1,0 +1,4 @@
+modules = {
+    ["__PROJECT_TEMPLATE_SNAKE__"] = "src/__PROJECT_TEMPLATE_SNAKE__.lua",
+    ["__PROJECT_TEMPLATE_SNAKE__.*"] = "src/"
+}
