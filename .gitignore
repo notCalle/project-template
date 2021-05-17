@@ -13,3 +13,7 @@
 /tmp/
 .rspec_status
 /Gemfile.lock
+
+# direnv
+.envrc
+.direnv/
