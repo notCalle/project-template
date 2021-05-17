@@ -23,15 +23,18 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.platform = Gem::Platform::RUBY
-  spec.required_ruby_version = '~> 2.3'
+  spec.required_ruby_version = '~> 2.7'
 
-  spec.add_development_dependency 'bundler', '~> 1.16'
-  spec.add_development_dependency 'cucumber', '~> 3.1'
-  spec.add_development_dependency 'git-version-bump', '~> 0.15'
-  spec.add_development_dependency 'pry', '~> 0.11'
-  spec.add_development_dependency 'rake', '~> 12.0'
+  spec.add_development_dependency 'bundler', '~> 2.2'
+  spec.add_development_dependency 'codecov', '~> 0.5.0'
+  spec.add_development_dependency 'cucumber', '~> 5.3'
+  spec.add_development_dependency 'git-version-bump', '~> 0.17'
+  spec.add_development_dependency 'pry', '~> 0.14'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop', '~> 0.57'
-  spec.add_development_dependency 'ruby-prof', '~> 0.17'
-  spec.add_development_dependency 'simplecov', '~> 0.16'
+  spec.add_development_dependency 'rubocop', '~> 1.15'
+  spec.add_development_dependency 'rubocop-rake', '~> 0.5.1'
+  spec.add_development_dependency 'rubocop-rspec', '~> 2.3'
+  spec.add_development_dependency 'ruby-prof', '~> 1.4'
+  spec.add_development_dependency 'simplecov', '~> 0.21'
 end
