@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.required_ruby_version = '~> 2.7'
 
-  spec.add_development_dependency 'bundler', '~> 2.2'
+  spec.add_development_dependency 'bundler', '~> 2.2.10'
   spec.add_development_dependency 'codecov', '~> 0.5.0'
   spec.add_development_dependency 'cucumber', '~> 5.3'
   spec.add_development_dependency 'git-version-bump', '~> 0.17'
